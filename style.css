@@ -1,0 +1,87 @@
+/* CONTAINER */
+#stopwatch {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* TIME */
+#sw-time {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+
+/* BUTTONS */
+#sw-rst,
+#sw-go {
+  box-sizing: border-box;
+  width: 50%;
+  cursor: pointer;
+  padding: 20px 0;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+#sw-rst {
+  background-color: #a32208;
+}
+
+#sw-go {
+  background-color: #20a308;
+}
+
+/* PAGE & BODY */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1529686159790-3246c5082afb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MTY5NzQzMQ&ixlib=rb-1.2.1&q=85);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* WIDGET */
+.widget-wrap {
+  min-width: 450px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* HEADER */
+h1 {
+  text-align: center;
+}
+
+#jdesigns {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* FOOTER */
+#jdesigns {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#jdesigns a {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  background: #5a2e5a;
+  color: #fff;
+}
